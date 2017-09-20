@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    app:cardBackgroundColor="#fff"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_favoriteitem_head"
+                android:src="@mipmap/ic_account_circle_black"
+                android:layout_width="30dp"
+                android:layout_centerVertical="true"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/tv_favoriteitem_authorname"
+                android:layout_width="wrap_content"
+                android:text="demo"
+                android:layout_toRightOf="@+id/img_favoriteitem_head"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_favoriteitem_from"
+                android:text="demo"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_favoriteitem_title"
+            android:textColor="#000"
+            android:maxLines="2"
+            android:ellipsize="marquee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

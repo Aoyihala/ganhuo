@@ -1,4 +1,5 @@
 # ganhuo
+# ！！！！重要！！！本项目不再维护,不能保证其正常运行！！
 阅读技术前沿资讯
 ## 本app用的接口是来自于干货集中营(感谢提供api):http://gank.io/api
 >1.首页视图是用tablayout+viewpager+fragment实现,特别的简单粗暴,首页的item其实是请求了两个①文章②图片,有机组合配套。
